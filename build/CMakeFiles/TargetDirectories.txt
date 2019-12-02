@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/chutills.dir
