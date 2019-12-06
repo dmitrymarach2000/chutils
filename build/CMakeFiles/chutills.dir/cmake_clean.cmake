@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chutills.dir/main.c.o"
+  "CMakeFiles/chutills.dir/main.c.obj"
   "chutills"
   "chutills.pdb"
 )

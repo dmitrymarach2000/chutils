@@ -1,1 +1,1 @@
-/data/data/com.termux/files/usr/bin/cc -g   CMakeFiles/chutills.dir/main.c.o  -o chutills 
+/usr/bin/cc.exe -g   CMakeFiles/chutills.dir/main.c.obj  -o chutills 

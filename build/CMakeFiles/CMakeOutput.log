@@ -1,19 +1,19 @@
-The system is: Android - 3.18.91-16526088 - armv8l
+The system is: MINGW64_NT-10.0-18362 - 3.0.7-338.x86_64 - unknown
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /data/data/com.termux/files/usr/bin/cc 
-Build flags: 
+Compiler: /usr/bin/cc.exe 
+Build flags: -g
 Id flags:  
 
 The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is Clang, found in "/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/3.15.5/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/student/git/chutils/build/CMakeFiles/3.15.5/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /data/data/com.termux/files/usr/bin/c++ 
+Compiler: /usr/bin/CC.exe 
 Build flags: 
 Id flags:  
 
@@ -21,275 +21,443 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is Clang, found in "/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/3.15.5/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/student/git/chutils/build/CMakeFiles/3.15.5/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp
+Change Dir: /home/student/git/chutils/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/data/data/com.termux/files/usr/bin/make cmTC_81c99/fast && /data/data/com.termux/files/usr/bin/make -f CMakeFiles/cmTC_81c99.dir/build.make CMakeFiles/cmTC_81c99.dir/build
-make[1]: Entering directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81c99.dir/testCCompiler.c.o
-/data/data/com.termux/files/usr/bin/cc    -o CMakeFiles/cmTC_81c99.dir/testCCompiler.c.o   -c /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_81c99
-/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c99.dir/link.txt --verbose=1
-/data/data/com.termux/files/usr/bin/cc      CMakeFiles/cmTC_81c99.dir/testCCompiler.c.o  -o cmTC_81c99 
-make[1]: Leaving directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make.exe cmTC_88f78/fast && /usr/bin/make -f CMakeFiles/cmTC_88f78.dir/build.make CMakeFiles/cmTC_88f78.dir/build
+make[1]: Entering directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88f78.dir/testCCompiler.c.obj
+/usr/bin/cc.exe   -g    -o CMakeFiles/cmTC_88f78.dir/testCCompiler.c.obj   -c /home/student/git/chutils/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_88f78
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_88f78.dir/link.txt --verbose=1
+/usr/bin/cc.exe -g     CMakeFiles/cmTC_88f78.dir/testCCompiler.c.obj  -o cmTC_88f78 
+make[1]: Leaving directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp
+Change Dir: /home/student/git/chutils/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/data/data/com.termux/files/usr/bin/make cmTC_8c20c/fast && /data/data/com.termux/files/usr/bin/make -f CMakeFiles/cmTC_8c20c.dir/build.make CMakeFiles/cmTC_8c20c.dir/build
-make[1]: Entering directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o
-/data/data/com.termux/files/usr/bin/cc   -v -o CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o   -c /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c
-clang version 9.0.0 (tags/RELEASE_900/final)
-Target: arm-unknown-linux-android
+Run Build Command(s):/usr/bin/make.exe cmTC_ff866/fast && /usr/bin/make -f CMakeFiles/cmTC_ff866.dir/build.make CMakeFiles/cmTC_ff866.dir/build
+make[1]: Entering directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj
+/usr/bin/cc.exe   -g    -v -o CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.15.5/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-msys
+Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
 Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
- "/data/data/com.termux/files/usr/bin/clang-9" -cc1 -triple armv4t-unknown-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu arm7tdmi -target-feature +soft-float -target-feature +soft-float-abi -target-feature -fp16 -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp2d16 -target-feature -vfp2d16sp -target-feature -vfp3 -target-feature -vfp3sp -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp4 -target-feature -vfp4sp -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -fp-armv8 -target-feature -fp-armv8sp -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fullfp16 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -fp64 -target-feature -d32 -target-feature -fpregs -target-feature +strict-align -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.gcno -resource-dir /data/data/com.termux/files/usr/lib/clang/9.0.0 -internal-isystem /data/data/com.termux/files/usr/include/arm-linux-androideabi -internal-isystem /usr/local/include -internal-isystem /data/data/com.termux/files/usr/lib/clang/9.0.0/include -internal-externc-isystem /data/data/com.termux/files/usr/include -fdebug-compilation-dir /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c
-clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target arm-linux-androideabi
+gcc version 9.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api /usr/share/cmake-3.15.5/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj -g -version -o /tmp/ccAtCbpO.s
+GNU C17 (GCC) version 9.1.0 (x86_64-pc-msys)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api"
 #include "..." search starts here:
 #include <...> search starts here:
- /data/data/com.termux/files/usr/include/arm-linux-androideabi
- /data/data/com.termux/files/usr/lib/clang/9.0.0/include
- /data/data/com.termux/files/usr/include
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed
+ /usr/include
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api
 End of search list.
-Linking C executable cmTC_8c20c
-/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c20c.dir/link.txt --verbose=1
-/data/data/com.termux/files/usr/bin/cc     -v CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o  -o cmTC_8c20c 
-clang version 9.0.0 (tags/RELEASE_900/final)
-Target: arm-unknown-linux-android
+GNU C17 (GCC) version 9.1.0 (x86_64-pc-msys)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7f510fbb3faa166a40407e74feefff38
+COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj /tmp/ccAtCbpO.s
+GNU assembler version 2.30 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ff866
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ff866.dir/link.txt --verbose=1
+/usr/bin/cc.exe -g    -v CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj  -o cmTC_ff866 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe
+Target: x86_64-pc-msys
+Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
 Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
- "/data/data/com.termux/files/usr/bin/arm-linux-androideabi-ld" -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_8c20c /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib/../lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
-make[1]: Leaving directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
+gcc version 9.1.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'cmTC_ff866.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/9.1.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccVXfFxX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_ff866.exe /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/9.1.0 -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../.. CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'cmTC_ff866.exe' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/data/data/com.termux/files/usr/include/arm-linux-androideabi]
-    add: [/data/data/com.termux/files/usr/lib/clang/9.0.0/include]
-    add: [/data/data/com.termux/files/usr/include]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed]
+    add: [/usr/include]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api]
   end of search list found
-  collapse include dir [/data/data/com.termux/files/usr/include/arm-linux-androideabi] ==> [/data/data/com.termux/files/usr/include/arm-linux-androideabi]
-  collapse include dir [/data/data/com.termux/files/usr/lib/clang/9.0.0/include] ==> [/data/data/com.termux/files/usr/lib/clang/9.0.0/include]
-  collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
-  implicit include dirs: [/data/data/com.termux/files/usr/include/arm-linux-androideabi;/data/data/com.termux/files/usr/lib/clang/9.0.0/include;/data/data/com.termux/files/usr/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api] ==> [/usr/include/w32api]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include;/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed;/usr/include;/usr/include/w32api]
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/student/git/chutils/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/data/data/com.termux/files/usr/bin/make cmTC_8c20c/fast && /data/data/com.termux/files/usr/bin/make -f CMakeFiles/cmTC_8c20c.dir/build.make CMakeFiles/cmTC_8c20c.dir/build]
-  ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/data/data/com.termux/files/usr/bin/cc   -v -o CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o   -c /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang version 9.0.0 (tags/RELEASE_900/final)]
-  ignore line: [Target: arm-unknown-linux-android]
+  ignore line: [Run Build Command(s):/usr/bin/make.exe cmTC_ff866/fast && /usr/bin/make -f CMakeFiles/cmTC_ff866.dir/build.make CMakeFiles/cmTC_ff866.dir/build]
+  ignore line: [make[1]: Entering directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/cc.exe   -g    -v -o CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.15.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-msys]
+  ignore line: [Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-  ignore line: [ "/data/data/com.termux/files/usr/bin/clang-9" -cc1 -triple armv4t-unknown-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu arm7tdmi -target-feature +soft-float -target-feature +soft-float-abi -target-feature -fp16 -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp2d16 -target-feature -vfp2d16sp -target-feature -vfp3 -target-feature -vfp3sp -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp4 -target-feature -vfp4sp -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -fp-armv8 -target-feature -fp-armv8sp -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fullfp16 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -fp64 -target-feature -d32 -target-feature -fpregs -target-feature +strict-align -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.gcno -resource-dir /data/data/com.termux/files/usr/lib/clang/9.0.0 -internal-isystem /data/data/com.termux/files/usr/include/arm-linux-androideabi -internal-isystem /usr/local/include -internal-isystem /data/data/com.termux/files/usr/lib/clang/9.0.0/include -internal-externc-isystem /data/data/com.termux/files/usr/include -fdebug-compilation-dir /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target arm-linux-androideabi]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api /usr/share/cmake-3.15.5/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj -g -version -o /tmp/ccAtCbpO.s]
+  ignore line: [GNU C17 (GCC) version 9.1.0 (x86_64-pc-msys)]
+  ignore line: [	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/include"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /data/data/com.termux/files/usr/include/arm-linux-androideabi]
-  ignore line: [ /data/data/com.termux/files/usr/lib/clang/9.0.0/include]
-  ignore line: [ /data/data/com.termux/files/usr/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_8c20c]
-  ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c20c.dir/link.txt --verbose=1]
-  ignore line: [/data/data/com.termux/files/usr/bin/cc     -v CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o  -o cmTC_8c20c ]
-  ignore line: [clang version 9.0.0 (tags/RELEASE_900/final)]
-  ignore line: [Target: arm-unknown-linux-android]
+  ignore line: [GNU C17 (GCC) version 9.1.0 (x86_64-pc-msys)]
+  ignore line: [	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7f510fbb3faa166a40407e74feefff38]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj /tmp/ccAtCbpO.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_ff866]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ff866.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc.exe -g    -v CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj  -o cmTC_ff866 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-pc-msys]
+  ignore line: [Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-  link line: [ "/data/data/com.termux/files/usr/bin/arm-linux-androideabi-ld" -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_8c20c /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib/../lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
-    arg [/data/data/com.termux/files/usr/bin/arm-linux-androideabi-ld] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-znoexecstack] ==> ignore
-    arg [-EL] ==> ignore
-    arg [--warn-shared-textrel] ==> ignore
-    arg [-znow] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [-X] ==> ignore
-    arg [--hash-style=both] ==> ignore
-    arg [--enable-new-dtags] ==> ignore
-    arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-v' '-o' 'cmTC_ff866.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/9.1.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccVXfFxX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_ff866.exe /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/9.1.0 -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../.. CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/msys-lto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVXfFxX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
     arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/system/bin/linker] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=msys-] ==> ignore
+    arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8c20c] ==> ignore
-    arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
-    arg [-L/system/lib] ==> dir [/system/lib]
-    arg [-L/data/data/com.termux/files/usr/bin/../lib] ==> dir [/data/data/com.termux/files/usr/bin/../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/data/data/com.termux/files/usr/bin/../lib] ==> dir [/data/data/com.termux/files/usr/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [CMakeFiles/cmTC_8c20c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_ff866.exe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../..]
+    arg [CMakeFiles/cmTC_ff866.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-ldl] ==> lib [dl]
-    arg [-lc] ==> lib [c]
+    arg [-lmsys-2.0] ==> lib [msys-2.0]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-ldl] ==> lib [dl]
-    arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> ignore
-  collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
-  collapse library dir [/system/lib] ==> [/system/lib]
-  collapse library dir [/data/data/com.termux/files/usr/bin/../lib] ==> [/data/data/com.termux/files/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/data/data/com.termux/files/usr/bin/../lib] ==> [/data/data/com.termux/files/usr/lib]
-  collapse library dir [/lib] ==> [/lib]
-  implicit libs: [gcc;dl;c;gcc;dl]
-  implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib;/lib]
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/9.1.0;/usr/x86_64-pc-msys/lib;/usr/lib]
   implicit fwks: []
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp
+Change Dir: /home/student/git/chutils/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/data/data/com.termux/files/usr/bin/make cmTC_174ab/fast && /data/data/com.termux/files/usr/bin/make -f CMakeFiles/cmTC_174ab.dir/build.make CMakeFiles/cmTC_174ab.dir/build
-make[1]: Entering directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_174ab.dir/testCXXCompiler.cxx.o
-/data/data/com.termux/files/usr/bin/c++     -o CMakeFiles/cmTC_174ab.dir/testCXXCompiler.cxx.o -c /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_174ab
-/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_174ab.dir/link.txt --verbose=1
-/data/data/com.termux/files/usr/bin/c++       CMakeFiles/cmTC_174ab.dir/testCXXCompiler.cxx.o  -o cmTC_174ab 
-make[1]: Leaving directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make.exe cmTC_ecd24/fast && /usr/bin/make -f CMakeFiles/cmTC_ecd24.dir/build.make CMakeFiles/cmTC_ecd24.dir/build
+make[1]: Entering directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecd24.dir/testCXXCompiler.cxx.o
+/usr/bin/CC.exe     -o CMakeFiles/cmTC_ecd24.dir/testCXXCompiler.cxx.o -c /home/student/git/chutils/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ecd24
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ecd24.dir/link.txt --verbose=1
+/usr/bin/CC.exe       CMakeFiles/cmTC_ecd24.dir/testCXXCompiler.cxx.o  -o cmTC_ecd24 
+make[1]: Leaving directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp
+Change Dir: /home/student/git/chutils/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/data/data/com.termux/files/usr/bin/make cmTC_dec01/fast && /data/data/com.termux/files/usr/bin/make -f CMakeFiles/cmTC_dec01.dir/build.make CMakeFiles/cmTC_dec01.dir/build
-make[1]: Entering directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o
-/data/data/com.termux/files/usr/bin/c++    -v -o CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
-clang version 9.0.0 (tags/RELEASE_900/final)
-Target: arm-unknown-linux-android
+Run Build Command(s):/usr/bin/make.exe cmTC_c7d44/fast && /usr/bin/make -f CMakeFiles/cmTC_c7d44.dir/build.make CMakeFiles/cmTC_c7d44.dir/build
+make[1]: Entering directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/CC.exe    -v -o CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.15.5/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/CC
+Target: x86_64-pc-msys
+Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
 Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
- "/data/data/com.termux/files/usr/bin/clang-9" -cc1 -triple armv4t-unknown-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu arm7tdmi -target-feature +soft-float -target-feature +soft-float-abi -target-feature -fp16 -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp2d16 -target-feature -vfp2d16sp -target-feature -vfp3 -target-feature -vfp3sp -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp4 -target-feature -vfp4sp -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -fp-armv8 -target-feature -fp-armv8sp -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fullfp16 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -fp64 -target-feature -d32 -target-feature -fpregs -target-feature +strict-align -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /data/data/com.termux/files/usr/lib/clang/9.0.0 -internal-isystem /data/data/com.termux/files/usr/bin/../include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/include/arm-linux-androideabi -internal-isystem /usr/local/include -internal-isystem /data/data/com.termux/files/usr/lib/clang/9.0.0/include -internal-externc-isystem /data/data/com.termux/files/usr/include -fdeprecated-macro -fdebug-compilation-dir /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
-clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target arm-linux-androideabi
+gcc version 9.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api /usr/share/cmake-3.15.5/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccm0SRrX.s
+GNU C++14 (GCC) version 9.1.0 (x86_64-pc-msys)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api"
 #include "..." search starts here:
 #include <...> search starts here:
- /data/data/com.termux/files/usr/bin/../include/c++/v1
- /data/data/com.termux/files/usr/include/arm-linux-androideabi
- /data/data/com.termux/files/usr/lib/clang/9.0.0/include
- /data/data/com.termux/files/usr/include
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/x86_64-pc-msys
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/backward
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed
+ /usr/include
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api
 End of search list.
-Linking CXX executable cmTC_dec01
-/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec01.dir/link.txt --verbose=1
-/data/data/com.termux/files/usr/bin/c++      -v CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dec01 
-clang version 9.0.0 (tags/RELEASE_900/final)
-Target: arm-unknown-linux-android
+GNU C++14 (GCC) version 9.1.0 (x86_64-pc-msys)
+	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 72694f05283e8e0b0c0d7398d1679fee
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccm0SRrX.s
+GNU assembler version 2.30 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_c7d44
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c7d44.dir/link.txt --verbose=1
+/usr/bin/CC.exe      -v CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c7d44 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/CC
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe
+Target: x86_64-pc-msys
+Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
 Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
- "/data/data/com.termux/files/usr/bin/arm-linux-androideabi-ld" -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_dec01 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib/../lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared -lgcc -ldl -lm -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
-make[1]: Leaving directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp'
+gcc version 9.1.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7d44.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-msys/9.1.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/9.1.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccw4U2KN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_c7d44.exe /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/9.1.0 -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../.. CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7d44.exe' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp'
 
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/data/data/com.termux/files/usr/bin/../include/c++/v1]
-    add: [/data/data/com.termux/files/usr/include/arm-linux-androideabi]
-    add: [/data/data/com.termux/files/usr/lib/clang/9.0.0/include]
-    add: [/data/data/com.termux/files/usr/include]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/x86_64-pc-msys]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/backward]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed]
+    add: [/usr/include]
+    add: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api]
   end of search list found
-  collapse include dir [/data/data/com.termux/files/usr/bin/../include/c++/v1] ==> [/data/data/com.termux/files/usr/include/c++/v1]
-  collapse include dir [/data/data/com.termux/files/usr/include/arm-linux-androideabi] ==> [/data/data/com.termux/files/usr/include/arm-linux-androideabi]
-  collapse include dir [/data/data/com.termux/files/usr/lib/clang/9.0.0/include] ==> [/data/data/com.termux/files/usr/lib/clang/9.0.0/include]
-  collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
-  implicit include dirs: [/data/data/com.termux/files/usr/include/c++/v1;/data/data/com.termux/files/usr/include/arm-linux-androideabi;/data/data/com.termux/files/usr/lib/clang/9.0.0/include;/data/data/com.termux/files/usr/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/x86_64-pc-msys] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/x86_64-pc-msys]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/backward] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api] ==> [/usr/include/w32api]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++;/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/x86_64-pc-msys;/usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/backward;/usr/lib/gcc/x86_64-pc-msys/9.1.0/include;/usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed;/usr/include;/usr/include/w32api]
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/student/git/chutils/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/data/data/com.termux/files/usr/bin/make cmTC_dec01/fast && /data/data/com.termux/files/usr/bin/make -f CMakeFiles/cmTC_dec01.dir/build.make CMakeFiles/cmTC_dec01.dir/build]
-  ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/data/data/com.termux/files/usr/bin/c++    -v -o CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang version 9.0.0 (tags/RELEASE_900/final)]
-  ignore line: [Target: arm-unknown-linux-android]
+  ignore line: [Run Build Command(s):/usr/bin/make.exe cmTC_c7d44/fast && /usr/bin/make -f CMakeFiles/cmTC_c7d44.dir/build.make CMakeFiles/cmTC_c7d44.dir/build]
+  ignore line: [make[1]: Entering directory '/home/student/git/chutils/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/CC.exe    -v -o CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.15.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/CC]
+  ignore line: [Target: x86_64-pc-msys]
+  ignore line: [Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-  ignore line: [ "/data/data/com.termux/files/usr/bin/clang-9" -cc1 -triple armv4t-unknown-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu arm7tdmi -target-feature +soft-float -target-feature +soft-float-abi -target-feature -fp16 -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp2d16 -target-feature -vfp2d16sp -target-feature -vfp3 -target-feature -vfp3sp -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp4 -target-feature -vfp4sp -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -fp-armv8 -target-feature -fp-armv8sp -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fullfp16 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -fp64 -target-feature -d32 -target-feature -fpregs -target-feature +strict-align -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /data/data/com.termux/files/usr/lib/clang/9.0.0 -internal-isystem /data/data/com.termux/files/usr/bin/../include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/include/arm-linux-androideabi -internal-isystem /usr/local/include -internal-isystem /data/data/com.termux/files/usr/lib/clang/9.0.0/include -internal-externc-isystem /data/data/com.termux/files/usr/include -fdeprecated-macro -fdebug-compilation-dir /data/data/com.termux/files/home/git/chutills/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang -cc1 version 9.0.0 based upon LLVM 9.0.0 default target arm-linux-androideabi]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api /usr/share/cmake-3.15.5/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccm0SRrX.s]
+  ignore line: [GNU C++14 (GCC) version 9.1.0 (x86_64-pc-msys)]
+  ignore line: [	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/include"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/../../include/w32api"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /data/data/com.termux/files/usr/bin/../include/c++/v1]
-  ignore line: [ /data/data/com.termux/files/usr/include/arm-linux-androideabi]
-  ignore line: [ /data/data/com.termux/files/usr/lib/clang/9.0.0/include]
-  ignore line: [ /data/data/com.termux/files/usr/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/x86_64-pc-msys]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include/c++/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/../include/w32api]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_dec01]
-  ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec01.dir/link.txt --verbose=1]
-  ignore line: [/data/data/com.termux/files/usr/bin/c++      -v CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dec01 ]
-  ignore line: [clang version 9.0.0 (tags/RELEASE_900/final)]
-  ignore line: [Target: arm-unknown-linux-android]
+  ignore line: [GNU C++14 (GCC) version 9.1.0 (x86_64-pc-msys)]
+  ignore line: [	compiled by GNU C version 9.1.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 72694f05283e8e0b0c0d7398d1679fee]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/as.exe -v -o CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccm0SRrX.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-pc-msys) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_c7d44]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c7d44.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/CC.exe      -v CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c7d44 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/CC]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-pc-msys]
+  ignore line: [Configured with: /msys_scripts/gcc/src/gcc-9.1.0/configure --build=x86_64-pc-msys --prefix=/usr --libexecdir=/usr/lib --enable-bootstrap --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --with-arch=x86-64 --with-tune=generic --disable-multilib --enable-__cxa_atexit --with-dwarf2 --enable-languages=c,c++,fortran,lto --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --disable-win32-registry --disable-symvers --with-gnu-ld --with-gnu-as --disable-isl-version-check --enable-checking=release --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-  link line: [ "/data/data/com.termux/files/usr/bin/arm-linux-androideabi-ld" -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -X --hash-style=both --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_dec01 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib/../lib -L/data/data/com.termux/files/usr/bin/../lib -L/lib CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared -lgcc -ldl -lm -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
-    arg [/data/data/com.termux/files/usr/bin/arm-linux-androideabi-ld] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-znoexecstack] ==> ignore
-    arg [-EL] ==> ignore
-    arg [--warn-shared-textrel] ==> ignore
-    arg [-znow] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [-X] ==> ignore
-    arg [--hash-style=both] ==> ignore
-    arg [--enable-new-dtags] ==> ignore
-    arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-msys/9.1.0/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/:/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7d44.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-msys/9.1.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-msys/9.1.0/msys-lto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccw4U2KN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmsys-2.0 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=msys- --tsaware -o cmTC_c7d44.exe /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-msys/9.1.0 -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib -L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../.. CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o -lgcc_s -lgcc -lmsys-2.0 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-msys/9.1.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/msys-lto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-msys/9.1.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccw4U2KN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsys-2.0] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
     arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/system/bin/linker] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwm] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znam] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwmRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnamRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=msys-] ==> ignore
+    arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dec01] ==> ignore
-    arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
-    arg [-L/system/lib] ==> dir [/system/lib]
-    arg [-L/data/data/com.termux/files/usr/bin/../lib] ==> dir [/data/data/com.termux/files/usr/bin/../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/data/data/com.termux/files/usr/bin/../lib] ==> dir [/data/data/com.termux/files/usr/bin/../lib]
-    arg [-L/lib] ==> dir [/lib]
-    arg [CMakeFiles/cmTC_dec01.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lc++_shared] ==> lib [c++_shared]
+    arg [cmTC_c7d44.exe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../..]
+    arg [CMakeFiles/cmTC_c7d44.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-ldl] ==> lib [dl]
-    arg [-lm] ==> lib [m]
-    arg [-lc] ==> lib [c]
+    arg [-lmsys-2.0] ==> lib [msys-2.0]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-ldl] ==> lib [dl]
-    arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> ignore
-  collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
-  collapse library dir [/system/lib] ==> [/system/lib]
-  collapse library dir [/data/data/com.termux/files/usr/bin/../lib] ==> [/data/data/com.termux/files/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/data/data/com.termux/files/usr/bin/../lib] ==> [/data/data/com.termux/files/usr/lib]
-  collapse library dir [/lib] ==> [/lib]
-  implicit libs: [c++_shared;gcc;dl;m;c;gcc;dl]
-  implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib;/lib]
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-msys/9.1.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0] ==> [/usr/lib/gcc/x86_64-pc-msys/9.1.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib/../lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../../../x86_64-pc-msys/lib] ==> [/usr/x86_64-pc-msys/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-msys/9.1.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc_s;gcc;msys-2.0;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-msys/9.1.0;/usr/x86_64-pc-msys/lib;/usr/lib]
   implicit fwks: []
 
 

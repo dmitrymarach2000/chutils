@@ -338,6 +338,9 @@ char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 #if defined(__linux) || defined(__linux__) || defined(linux)
 # define PLATFORM_ID "Linux"
 
+#elif defined(__MSYS__)
+# define PLATFORM_ID "MSYS"
+
 #elif defined(__CYGWIN__)
 # define PLATFORM_ID "Cygwin"
 

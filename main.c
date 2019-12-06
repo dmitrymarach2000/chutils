@@ -19,14 +19,17 @@ int main()
 
 int addch(char* str, int* str_l, char ch)
 {
-	if( *str_l == 0 )
+	int p = *str_l;
+	if( p == 0 )
 	{
-		*str_l = 1;
+		p = 1;
 	}
 	//printf("=\n");
-	str = (char*)realloc(str, (++*str_l) * sizeof(char));
+	p++;
+	str = (char*)realloc(str, p * sizeof(char));
 	//printf("÷\n");
-	str[*str_l - 2] = ch;
-	str[*str_l - 1] = '\0';
+	str[p - 2] = ch;
+	str[p - 1] = '\0';
+	*str_l = p;
 	return 0;
 }

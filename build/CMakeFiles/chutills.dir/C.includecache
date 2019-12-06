@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/data/data/com.termux/files/home/git/chutills/main.c
+/home/student/git/chutils/main.c
 stdlib.h
 -
 stdio.h
